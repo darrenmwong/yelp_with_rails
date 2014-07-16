@@ -1,0 +1,9 @@
+<h1>Foods!</h1>
+
+<% @parsed['businesses'].each do |business| %>
+  <h3>Name: <%= business['name'] %></h3>
+  <%= image_tag business['image_url'] %></br>
+  <h5> Closed? <%= business['is_closed'] %> <h5>
+  <%= image_tag business['rating_img_url_large'] %>
+<% end %>
+
