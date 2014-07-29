@@ -8,10 +8,10 @@ class FoodsController < ApplicationController
       # noticed that I did not add gem json and rubygems because Rails 
       # already has it
     # the code below has been moved to app/helpers/foods_helper.rb
-    # consumer_key = 'fRaHH5Mu6S5cERbTaBA9mw'
-    # consumer_secret = 'mrmPWhiK1WCg38bAaTFHUKbObjU'
-    # token = '_C6ontQXlmTwpclGbyBvjSspIv7kQc3J'
-    # token_secret = 'PdL3RC0CmFNUe64ADdm0WR02dko'
+    # consumer_key = [ENV_FILE_PLZ]
+    # consumer_secret = [ENV_FILE_PLZ]
+    # token = [ENV_FILE_PLZ]
+    # token_secret = [ENV_FILE_PLZ]
 
     # api_host = 'api.yelp.com'
 
